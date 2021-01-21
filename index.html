@@ -17,65 +17,196 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- bootstrap4 css cdn include -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
 
     <header>
-        <!-- navcation bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!-- logo + name -->
-            <a class="navbar-brand font-weight-bold" href="#">
-                <img src="images/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> NCT
-            </a>
 
-            <!-- togol button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- navacation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-green">
+            <div class="container">
 
-            <!-- menu list -->
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav text-uppercase font-weight-bold">
-                    <a class="nav-item nav-link " href="# ">About</a>
-                    <a class="nav-item nav-link " href="# ">Cources</a>
-                    <a class="nav-item nav-link " href="# ">Trainer</a>
-                    <a class="nav-item nav-link " href="# ">Contact</a>
+                <!-- logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo-long.png" alt="Niom Computer Training's Logo" class="logo">
+                </a>
+
+                <!-- togol button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- manu list -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="signIn-btn">Registration</button>
+                        </li>
+                    </ul>
                 </div>
+
             </div>
         </nav>
 
-        <!-- slide -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <!-- slide no -->
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
 
-            <!-- slide images -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/slider/01.jpg" alt="First slide">
+        <!-- slaider -->
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                <!-- slider acctive -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <!-- Slide Card 1 -->
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <p class="learn">Do you need software for your Busniss?</p>
+                                <h1>Start bulding <br> software <span>with us</span></h1>
+                                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius
+                                    blandit facilisis quam netus.</p>
+                                <button class="signIn-btn">Get Started</button>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/slider/01.jpg" alt="Hero Image 1" class="illustration-img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide Card 2 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <p class="learn">Are you ready to Learn?</p>
+                                <h1>Learn with fun <br> on <span>any schedule</span></h1>
+                                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius
+                                    blandit facilisis quam netus.</p>
+                                <button class="signIn-btn">Starte Learning</button>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/slider/01.jpg" alt="Hero Image 2" class="illustration-img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide Card 3 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <p class="learn">Are you like to Read?</p>
+                                <h1>Read and learn <br> about <span>new technology</span></h1>
+                                <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius
+                                    blandit facilisis quam netus.</p>
+                                <button class="signIn-btn">Read Blog</button>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/slider/01.jpg" alt="Hero Image 3" class="illustration-img">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="images/slider/01.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="images/slider/01.jpg" alt="Third slide">
-                </div>
+
             </div>
         </div>
+
     </header>
+
+    <main>
+
+        <section>
+            <div class="container">
+
+                <!-- About Section Heading -->
+                <h2 class="sub-heading">About Us</h2>
+
+                <!-- About Section Peragraph Start -->
+                <div class="testimonial">
+
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour, or randomised words which don't
+                                look even slightly believable.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- About Section Peragraph End -->
+
+            </div>
+       
+            <div class="container">
+
+                <!-- Card Row Start -->
+                <div class="row">
+
+
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="justify-content-between align-content-between icon-card">
+                            <img src="images/icon/courses.png" alt="Niom Computer Training's Courses" class="icon">
+                            <h3>3 Courses</h3>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-4">
+                        <div class="justify-content-between align-content-between icon-card icon-card-highlight">
+                            <img src="images/icon/student.png" alt="Niom Computer Training's Student's" class="icon">
+                            <h3>100+ Student's</h3>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-4">
+                        <div class="justify-content-between align-content-between icon-card">
+                            <img src="images/icon/trainer.png" alt="Niom Computer Training's Trainer" class="icon">
+                            <h3>6+ Trainer</h3>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="text-center">Know More -></a>
+
+                </div>
+                <!-- Card Row End -->
+
+            </div>
+        </section>
+
+    </main>
 
 
 
     <!-- bootstrap4 js cdn include -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js "
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js "
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js "
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        crossorigin="anonymous "></script>
 </body>
 
 </html>
