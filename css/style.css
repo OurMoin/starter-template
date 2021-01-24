@@ -15,8 +15,13 @@ header {
 }
 
 .row {
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
+
+.choose {
+    margin-top: 50px;
+}
+
 
 
 /*======================================
@@ -155,7 +160,6 @@ header h1 span {
     margin-top: 20px;
 }
 
-
 /*======================================
 *          Section Testimonial         *
 ======================================*/
@@ -171,6 +175,10 @@ header h1 span {
 
 .testimonial p {
     margin: 22px 0 0 20px;
+}
+
+.testimonial h4 {
+    margin-left: 20px;
 }
 
 
@@ -205,16 +213,18 @@ footer ul {
     list-style: none;
 }
 
+
+
+.contact-form,
+.contact-btn {
+    width: 100%;
+}
+
 footer ul li {
-    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
 }
 
-footer li:first-child {
-    font-weight: 700;
-}
-
-.copyright {
-    color: #CDCDCD;
-    text-align: center;
-    margin-top: 50px;
+footer .row {
+    margin-right: 0;
 }
