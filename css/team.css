@@ -95,3 +95,7 @@ h4 {
 .section-team .single-person:hover .speciality {
     color: #fff;
 }
+
+div .person-info {
+    text-align: center;
+}
